@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Area51Notifier</string>
+    <string name="app_label">Area 51 Notifier</string>
+    <string name="report_service_only_inside_fences">The location is \ninside of fences: %1$s</string>
+    <string name="report_service_only_outside_fences">The location is \noutside of fences: %1$s</string>
+    <string name="report_service_both_types_of_fences">The location is \ninside of fences: %1$s \noutside of fences: %2$s</string>
+    <string name="report_service_fence_marker_balloon">This is the closest location to \n%1$s border</string>
+</resources>

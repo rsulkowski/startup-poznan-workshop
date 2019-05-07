@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/black_semitransparent</item>
+        <item name="colorPrimaryDark">@color/black_fully_opaque</item>
+        <item name="colorAccent">@color/tt_green</item>
+        <item name="android:textColorPrimary">@color/white_fully_opaque</item>
+        <item name="android:editTextColor">@color/black_semitransparent</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="CompassView" parent="BaseCompactView">
+        <item name="android:layout_gravity">top|start</item>
+        <item name="android:layout_marginStart">@dimen/compass_default_margin_start</item>
+        <item name="android:layout_marginTop">@dimen/compass_default_margin_top</item>
+    </style>
+
+    <style name="CenterOnCurrentLocationView" parent="BaseCompactView">
+        <item name="android:layout_gravity">bottom|start</item>
+        <item name="android:layout_marginStart">@dimen/compass_default_margin_start</item>
+        <item name="android:layout_marginBottom">@dimen/current_location_default_margin_bottom
+        </item>
+    </style>
+
+</resources>
